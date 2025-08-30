@@ -45,3 +45,7 @@ class Rotor:
     def solidity_local(self, r):
         # local solidity based on circumference annulus
         return (self.B * self.blade.c(r)) / (2 * math.pi * r)
+    
+    # Prandtl loss at a distance r from the center
+    def prandtl_loss(self, r, lambda_v):
+        return (2/np.pi) * np.arccos(np.exp((-self.B/2)*((1 - r/self.blade.R_tip)/lambda_v)))

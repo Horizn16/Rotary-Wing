@@ -1,0 +1,12 @@
+{
+    "vehicle": {
+        "rotor": {
+            "airfoil": "NACA 0012",
+            "radius": 5.0,
+            "rotor_speed(rad/s)": 400,
+            "n_blades": 4,
+            "chord": "chord(r) = 0.4 - 0.04 * (r / radius_m)",
+            "twist": "twist(r) = 20 - 4 * (r / radius_m)"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "assumptions": [
+        "The flow is steady and incompressible.",
+        "The fluid is Newtonian with constant properties.",
+        "Gravity effects are neglected unless otherwise specified.",
+        "No-slip boundary condition is applied at solid surfaces.",
+        "The flow is two-dimensional unless stated otherwise.",
+        "Viscous effects are considered where relevant.",
+        "Thermal effects are neglected unless specified.",
+        "All surfaces are impermeable."
+    ]
+}

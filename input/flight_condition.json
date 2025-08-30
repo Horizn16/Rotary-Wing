@@ -1,0 +1,10 @@
+{
+    "altitude": 2000,
+    "temperature": 275.15,
+    "pressure": 7949,
+    "density": 1.007,
+    "gravity": 9.80665,
+    "wind_speed(m/s)": 0,
+    "humidity_per": 0,
+    "remarks": "Standard ISA conditions assumed at 2000m altitude, in SI Unit"
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Individual refined helicopter design.",
+  "vehicle": {
+    "gross_weight_kg": 4050,
+    "fuselage_flat_plate_area_m2": 1.45,
+    "shaft_inclination_deg": -2.5
+  },
+  "main_rotor": {
+    "radius_m": 6.6,
+    "num_blades": 5,
+    "chord_m": 0.38,
+    "twist_deg": -12,
+    "rpm": 315,
+    "airfoil_name": "sc1095",
+    "root_cutout_ratio": 0.2,
+    "lock_number": 7
+  },
+  "tail_rotor": {
+    "radius_m": 1.1,
+    "num_blades": 4,
+    "chord_m": 0.18,
+    "twist_deg": 0,
+    "rpm": 1600,
+    "airfoil_name": "naca0012",
+    "root_cutout_ratio": 0.15,
+    "arm_m": 8.2
+  },
+  "engine": {
+    "max_power_kw": 1250,
+    "sfc_kg_per_kwh": 0.29
+  }
+}

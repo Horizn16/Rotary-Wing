@@ -1,9 +1,10 @@
 {
-  "description": "Common Helicopter Design",
+  "description": "Common team helicopter design ",
   "vehicle": {
     "gross_weight_kg": 4000,
     "fuselage_flat_plate_area_m2": 1.5,
-    "shaft_inclination_deg": -2.0
+    "shaft_inclination_deg": -2.0,
+    "fuel_capacity_kg": 800
   },
   "main_rotor": {
     "radius_m": 6.5,

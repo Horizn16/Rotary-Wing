@@ -3,7 +3,8 @@
   "vehicle": {
     "gross_weight_kg": 4050,
     "fuselage_flat_plate_area_m2": 1.45,
-    "shaft_inclination_deg": -2.5
+    "shaft_inclination_deg": -2.5,
+    "fuel_capacity_kg": 800
   },
   "main_rotor": {
     "radius_m": 6.6,
@@ -30,3 +31,4 @@
     "sfc_kg_per_kwh": 0.29
   }
 }
+

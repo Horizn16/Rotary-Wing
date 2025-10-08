@@ -1,18 +1,18 @@
 {
-  "description": "Individual refined helicopter design",
+  "description": "Common team helicopter design ",
   "vehicle": {
-    "gross_weight_kg": 4050,
-    "fuselage_flat_plate_area_m2": 1.45,
-    "shaft_inclination_deg": -2.5,
+    "gross_weight_kg": 4000,
+    "fuselage_flat_plate_area_m2": 1.5,
+    "shaft_inclination_deg": -2.0,
     "fuel_capacity_kg": 800
   },
   "main_rotor": {
-    "radius_m": 6.6,
+    "radius_m": 6.5,
     "num_blades": 4,
-    "chord_m": 0.47,
+    "chord_m": 0.4,
     "twist_deg": -10,
     "rpm": 320,
-    "airfoil_name": "sc1095",
+    "airfoil_name": "naca0012",
     "root_cutout_ratio": 0.2,
     "lock_number": 8
   },
@@ -24,11 +24,11 @@
     "rpm": 1600,
     "airfoil_name": "naca0012",
     "root_cutout_ratio": 0.15,
-    "arm_m": 8.2
+    "arm_m": 8.0
   },
   "engine": {
-    "max_power_kw": 1250,
-    "sfc_kg_per_kwh": 0.29
+    "max_power_kw": 1200,
+    "sfc_kg_per_kwh": 0.3
   }
 }
 
